@@ -1,0 +1,222 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('./images/Norse-Bold.otf');
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    border: 0px;
+    margin: 0px;
+}
+
+.left-banner{
+    background-color: #5ab66e;
+    background-image: url("./images/back.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+    font-family: 'CustomFont';
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   
+
+  
+}
+
+.right-banner{
+
+   
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-area{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    height: 33%;
+    font-size: 26px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.first{
+    margin-left: 40px;
+    width: 800px;
+}
+
+.second{
+
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.form-area{
+    background-color: rgba(247, 247, 247, 0.952);
+    box-shadow:3px 3px 20px rgb(158, 158, 158);
+    position: relative;
+    height: 40%;
+}
+.password-confirm,
+.phone-number,
+.last-name{
+    margin-left: 150px;
+}
+
+.phone-number{
+    margin-left: 180px;
+}
+.labels{
+
+    margin-left: 40px;
+}
+
+
+.input-area{
+    display: flex;
+    color: #2e2e2e;
+    font-weight: 550;
+    flex-direction: row;
+}
+
+
+
+.form-row{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 40px;
+}
+
+.not-matching{
+    margin-right: 2em;
+    background-color: #ffffff;
+    border: 1px solid #ac0b0b;
+    border-radius: 3px;
+   
+    padding: 7px;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+
+.form-row input{
+    margin-right: 2em;
+    background-color: #ffffff;
+    border: 1px solid #c4c4c4;
+    border-radius: 3px;
+   
+    padding: 7px;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+.form-row label{
+    text-align: right;
+    width: 120px;
+    margin-top: 7px;
+    padding-right: 20px;
+
+    
+}
+.form-area>p{
+    font-size: 26px;
+    margin-left: 40px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+.button-area{
+    background-color: #fff;
+
+    height: 33%;
+}
+
+
+.left-text{
+    text-align: center;
+    
+    margin: 0;
+    height: 150px;
+    width: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   color: rgb(255, 255, 255);
+    font-size: 65px;
+    border: #5ab66e;
+    background-color: rgba(245, 245, 245, 0.445);
+ 
+}
+.container{
+    display: flex;
+}
+
+
+button:hover{
+    background-color: #76AEED;
+}
+
+button:active{
+    background-color: #407fc7;
+}
+
+
+button{
+
+    font-size: 16px;
+    font-weight: bold;
+
+    color: #FFFFFF;
+    background-color: rgb(89, 109, 72);
+
+    border: none;
+    border-radius: 8px;
+    width: 220px;
+    height: 50px;
+    padding: 10px 40px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left:  40px;
+}
+
+.login{
+
+    display: flex;
+}
+
+.account{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+a{
+    
+    text-decoration: none;
+    color: rgb(89, 109, 72);
+    font-weight: 800;
+}
+
+.login > div{
+
+    margin-top: 40px;
+}
+
+.login
+a:visited{
+    text-decoration: none;
+}

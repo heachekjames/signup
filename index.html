@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left-banner">
+            <div class="left-text"> 
+                <img src="./images/odin-lined.png" alt="logo" height=100px>
+                GregSmee</div>
+            <!-- <img src="./images/back.jpg" alt="aaaaa" > -->
+        </div>
+
+        <div class="right-banner">
+                <div class="text-area">
+                    <div class="first">
+                        This is not a real online service! 
+                        You know you need something like this in your life
+                         to help you realize your deepest dreams. 
+                         Sign up now to get started.
+                    </div>
+                    <div class="second">
+                        You <em>know </em>you want to.
+                    </div>
+                </div>
+
+                <div class="form-area">
+                    <p>Let's do this!</p>
+                    <div class="input-area">
+                        <form action="">
+
+                            <div class="labels">
+                                <label for="first-name" class="first-name">
+                                    First name
+                                </label>
+
+                                <label for="last-name" class="last-name">
+                                    Last name
+                                </label>
+
+                            </div>
+                            <div class="form-row">
+                               
+                                <input type="text"
+                                id="first-name"
+                                maxlength="15">
+
+                                
+                                <input type="text"
+                                id="last-name"
+                                maxlength="15">
+                            </div>
+
+                            <div class="labels">
+
+                                <label for="email" class="email">
+                                    Email
+                                </label>
+                                <label for="phone-number" 
+                                class="phone-number">
+                                Phone Number
+                                </label>
+
+                            </div>
+
+   <!-- pattern=".+globex\.com"  -->
+                            <div class="form-row">
+                                <input type="email"
+                                id="email"
+                             
+                                required>
+                                <input type="number" id="phone-number">
+                            </div>
+                            <div class="labels">
+
+                                <label for="password" class="password">
+                                    Password
+                                </label>
+
+                                
+                               <label for="password-confirm" class="password-confirm">
+                                    Confirm Password
+                                 </label>
+
+                            </div>
+                            
+                            <div class="form-row">
+                                <input type="password" id="password" required>
+                                <input type="password" id="password-confirm" required>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="button-area">
+                        
+                        <button onclick="checkPass()">Create Account</button>
+                    </form>
+
+                    <div class="login">
+
+                        <div class="account">Already have an account? </div>
+                        <div> <a href=""> Log in </a></div>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+</body>
+</html>
